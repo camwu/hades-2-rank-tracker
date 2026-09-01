@@ -5,7 +5,7 @@
 A responsive web app built with React and Tailwind CSS to help players track their rank unlock progress in Hades II
 
 ## 🚀 Live App
-You can access the live application here: [Hades II Rank Tracker](https://hades-ii-rank-tracker-54268731549.us-west2.run.app/)
+You can access the live application here: [Hades II Rank Tracker](https://hades-ii-rank-tracker.ai.studio)
 
 ## ✨ Features
 - **Progress Tracking:** Monitor your current rank and track progress towards completion of all ranks.

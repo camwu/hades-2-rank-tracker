@@ -8,8 +8,8 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, '.', '');
   
   // Use VITE_APP_URL if provided, else fallback to APP_URL (injected by platform), 
-  // else fallback to the last known shared URL.
-  const appUrl = env.VITE_APP_URL || env.APP_URL || 'https://ais-pre-e23e4wmxtv7ixu36yu77jx-288784037392.us-west2.run.app';
+  // else fallback to the custom domain.
+  const appUrl = env.VITE_APP_URL || env.APP_URL || 'https://hades-ii-rank-tracker.ai.studio';
 
   return {
     plugins: [
